@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: midnightblue;
+    font-family: "Noto Sans", serif;
+}
+
+main{
+    background-color: white;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+}
+
+main button{
+    display: block;
+    margin:  1rem auto;
+}
+
+div{
+    margin-top: 1.5rem;
+}
+
+input{
+    width: 100%;
+    padding: 3px 0 3px 3px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid black;
+    outline: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+h2{
+    text-align: center;
+}
+
+.operacao, .result{
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+
+p{
+    border: 2px solid black;
+    padding: 4px 2px;
+    font-weight: 600;
+}
+
+select{
+    width: 100%;
+    padding: 4px 0;
+    font-weight: 550;
+    border: 2px solid black;
+    font-size: 1rem;
+}
+
+label{
+    font-weight: 500;
+}
+
+button{
+    background-color: white;
+    padding: 5px 1.5rem;
+    font-size: 1rem;
+    font-weight: 550;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
